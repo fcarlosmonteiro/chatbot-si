@@ -1,0 +1,30 @@
+categories:
+- processo de linguaguem natural
+conversations:
+- -Por que o processamento de linguagem natural é importante?
+- O processamento de linguagem natural é importante para que o computador possa se comunicar com seres humanos e adquirir informações a partir da linguagem escrita.
+- - Como um agente adquire conhecimento de uma linguagem??
+- A partir da classificação do texto, recuperação de informação e extração de informações, para isso utilizando modelos de linguagem.
+- - O que são modelos de linguagem?
+- Modelos de linguagem são maneiras de dizer se um conjunto de palavras, são uma sentença com significado devido a ambiguidade e o grande tamanho das linguagens naturais.
+- - Você pode me dizer mais sobre modelo de caracteres de N-grama?
+- Claro, o modelo de caracteres de N-grama, faz a distribuição da probabilidade sobre uma sequência de caracteres, um modelo de N-grama é definido como uma cadeia de Markov.
+- - O que se pode fazer com um modelo de caracteres de N-grama?
+- Eles podem ser utilizados para fazer a identificação de linguagem, correção de ortografia, classificação de gênero e o reconhecimento de entidade.
+- - Como saber qual modelo de caracteres de N-grama escolher?
+- A partir de um modelo de validação cruzada.
+- - O que é o alisamento?
+- É o processo de ajustar o resultado da probabilidade de baixa frequência.
+- - O que são modelos de palavras de N-grama?
+- É parecido com o modelo de caracteres, a diferença é que em vez de focar nos caracteres o foco do vocabulário são as palavras, tendo um conjunto de símbolos muito maior.
+- - O que é perplexidade?
+- É uma forma de descrever a probabilidade de uma sequência de caracteres, podendo ser considerado o contrário da probabilidade, quanto menor melhor.
+- - Você pode dizer mais sobre a classificação de texto?
+- A classificação de texto, conhecido como a categorização de um tipo de texto, decide a qual conjunto de classes ele pertence, como classificar se uma crítica de filme é positiva ou negativa, ou se um e-mail é um spam, muitas vezes é usado uma seleção de características para pegar as características mais importantes, para não executar algoritmos pesados.
+- - O que é a classificação por compressão de dados?
+- Os algoritmos de compressão trabalham com a construção de dicionários de subsequências do texto e depois se referem a entradas no dicionário.
+- - O que é recuperação de informação?
+- É a tarefa de encontrar documentos que são relevantes para a necessidade de um usuário  de obter informação, podendo ser caracterizado por um corpus de documentos, consultas coladas em linguagem de consulta, um conjunto de resultados e apresentação do conjunto de resultados.
+- - O que é a extração de informação?
+- É o processo de aquisição de conhecimento passados os olhos em um texto e procurando por ocorrências de uma classe particular de objetos e de relações entre objetos.
+
