@@ -1,0 +1,98 @@
+categories:
+- aprendizagem
+conversations:
+- - Por que um agente deve aprender?
+- Para poder cada vez mais se adaptar ao meio que ele está envolvido, dessa forma podendo lidar com as situações que lhe são apresentadas.
+- - Eu gostaria de saber do que um agente precisa para aprender
+- Inicialmente a aprendizagem de um agente depende de quatro fatores principais: o componente a ser melhorado, o conhecimento prévio do agente, a representação de dados usada para os dados e o componente e que feedback está disponível.
+- - Quais são os pontos para aprendizagem de um agente?
+- Inicialmente a aprendizagem de um agente depende de quatro fatores principais: o componente a ser melhorado, a representação dos dados já conhecidos pelo agente e o feedback que está disponível.
+- - O que inclui componente a ser melhorado a partir da aprendizagem?
+- O componente pode ser diversas coisas, um mapeamento direto de condições, um meio de deduzir propriedades do mundo, entender como o mundo evolui e as consequências das ações do agente, informações de utilidade indicando a desejabilidade de estados do mundo, informações de valores de ações indicando a desejabilidade de ações, metas que descrevem classes de estados maximizando a utilidade do agente.
+- - Você pode me dar um exemplo de um componente a ser melhorado a partir da aprendizagem?
+- Alguns exemplo seria um agente aprendendo a virar motorista de um táxi, toda vez que alguém avise o para frear ele freia, aprende uma regra de condição-ação sobre quando frear, ele pode aprender a reconhecer outros veículos ao ver muitas imagens, ao experimentar ações e observando resultados, pode aprender os efeitos das suas ações.
+- - Por que a representação do conhecimento prévio do agente é importante?
+- Como existem diversos tipos de representações de dados para os componentes do agente, diversos algoritmos de aprendizagem foram concebidos para maximizar a aprendizagem do agente.
+- - Qual a importância do feedback disponível?
+- O feedback disponível determina o tipo de aprendizagem: não supervisionada, por reforço e supervisionada.
+- - Quais são os tipos de aprendizagem?
+- Existem três principais tipos de aprendizagem: não supervisionada, por reforço, e supervisionada.
+- - Você pode falar mais sobre a aprendizagem não supervisionada?
+- Na aprendizagem não supervisionada o agente aprende padrões na entrada, embora não lhe seja dado um feedback explícito, sendo a mais comum o agrupamento.
+- - O que é aprendizagem não supervisionada?
+- Na aprendizagem não supervisionada o agente aprende padrões na entrada, embora não lhe seja dado um feedback explícito, sendo a mais comum o agrupamento.
+- - O que é agrupamento?
+- O agrupamento é uma maneira de detectar grupos de exemplos de entrada, como um agente de táxi, agrupar em grupos diferentes, quando há muito tráfego e quando a pouco, sabendo associar a entrada a cada um desses grupos.
+- - Você pode falar mais sobre a aprendizagem por reforço?
+- Na aprendizagem por reforço o agente aprende a partir de reforços, recompensas ou punições, como um táxi receber ou não uma gorjeta ao final da corrida, indicando se foi feito algo errado ou certo durante a corrida.
+- - O que é aprendizagem por reforço?
+- Na aprendizagem por reforço o agente aprende a partir de reforços, recompensas ou punições, como um táxi receber ou não uma gorjeta ao final da corrida, indicando se foi feito algo errado ou certo durante a corrida.
+- - Você pode falar mais sobre a aprendizagem supervisionada?
+- Na aprendizagem supervisionada o agente observa alguns exemplos de pares de entrada e saída e aprende uma função que mapeia ambos, a partir de hipóteses que são testadas com conjuntos de teste, até que se ache a que mais generaliza corretamente a saída esperada para tal entrada, quando a saída for um conjunto finito de valores o problema de aprendizagem será chamado de classificação caso seja um número será chamado de regressão.
+- - O que é a aprendizagem supervisionada?
+- Na aprendizagem supervisionada o agente observa alguns exemplos de pares de entrada e saída e aprende uma função que mapeia ambos, a partir de hipóteses que são testadas com conjuntos de teste, quando a saída for um conjunto finito de valores o problema de aprendizagem será chamado de classificação caso seja um número será chamado de regressão.
+- - Como o agente sabe qual hipótese consistente é a correta na aprendizagem supervisionada?
+- A partir das hipóteses, ele procura a mais consistente e mais simples para os dados, este princípio sendo chamado de navalha de Ockham?
+- - O que é a navalha de Ockham?
+- A navalha de Ockham é um princípio que diz que ao escolher entre diversas hipóteses consistentes, deve se escolher a mais simples para os dados, criada pelo filósofo inglês Guilherme de Ockham.
+- - O que são árvores de Decisão?
+- Árvores de Decisão representam uma função que toma como entrada um vetor de valores de atributos e retorna uma decisão de valor único, sendo sempre procurado a menor e melhor árvore possível.
+- - Como uma árvore de decisão chega a sua decisão?
+- A partir da execução de uma sequência de testes, passando por diversos nós na árvore cada um levando para outro teste chegando a uma conclusão definitiva.
+- - Como se encontra a melhor árvore de decisão possível?
+- A partir de uma heurística simples, pode se encontrar a uma pequena árvore consistente, focado em dividir e conquistar, dividindo o problema em subproblemas baseado na sua importância, procurando o mais importante e colocando o no topo e assim por diante.
+- - Como pode-se avaliar a precisão de um algoritmo de aprendizagem?
+- A partir da curva de aprendizagem do mesmo, ao pegar os exemplos a disposição e o dividir em conjunto de teste e de treinamento, pode se treinar o agente com o conjunto de treinamento e testar sua eficácia com o conjunto de testem aumentando cada vez mais o tamanho de cada um, repetindo diversas vezes, a partir da proporção de testes corretos, sabe-se a eficácia do algoritmo.
+- - Como se descobre a importância de um problema na árvore de decisão?
+- Ao se descobrir, o ganho de informação a partir da redução esperada na entropia da probabilidade da variável aleatória. Quanto maior o ganho, maior a importância.
+- - O que é a superadaptação?
+- Quando o algoritmo de aprendizagem em árvore de decisão gera uma grande árvore para um problema em que não há um padrão, tentando procurar qualquer tipo de padrão mesmo que não exista um.
+- - Como se resolve a superadaptação?
+- A partir de um teste de significância estatístico, supondo que não existe um padrão subjacente(hipótese nula), então os dados reais são analisados para calcular até que pontos eles divergem de uma ausência perfeita de padrão, se o grau de desvio por estatisticamente improvável, ele será considerado como evidência de que existe um padrão, se não “poda-se” o nó da árvore.
+- - O que é a omissão de dados em uma árvore de decisões?
+- Algumas vezes nem todos os dados podem ser conhecidos, resultando na falta de dados.
+- - O que são atributos multivalorados em uma árvore de decisões?
+- Quando um atributo tem muitos valores possíveis e a medida de ganho de informações fornece uma indicação imprópria da utilidade do atributo.
+- - Como se sabe qual hipótese é a melhor?
+- Para descobrir qual é a melhor hipótese é preciso encontrar aquela que melhor se ajuste aos dados futuros, definindo a taxa de erro de uma hipótese e fazendo uma validação cruzada para confirmar sua generalização.
+- - O que é uma validação cruzada?
+- A validação cruzada é a divisão aleatória dos dados disponíveis em um conjunto de treinamento a partir do qual o algoritmo de aprendizagem produz H e um conjunto de teste em que a precisão de H é avaliada.
+- - O que é espreitar inadvertidamente os dados de um teste?
+- Independentemente dos melhores modelos estatísticos, o usuário pode invalidar o resultado do teste.
+- - O que é a função de perda?
+- A função de perda é a o montante de utilidade perdida pela previsão H quando a resposta correta é X.
+- - O que é a teoria da aprendizagem computacional?
+- A teoria da aprendizagem computacional diz que qualquer hipótese que esteja seriamente errada será quase certamente “descoberta” com alta probabilidade depois de um pequeno número de exemplos, porque vai fazer uma previsão incorreta. Assim, qualquer hipótese que seja consistente com um conjunto suficientemente grande de exemplos de conjunto de treinamento é improvável de estar seriamente errada, ou seja, deve estar provavelmente aproximadamente correta.
+- - O que é um algoritmo de aprendizagem PAC?
+- Um algoritmo de aprendizagem PAC é qualquer algoritmo de aprendizagem que retorne hipóteses que sejam provavelmente aproximadamente corretas.
+- - O que são listas de decisão?
+- Uma lista de decisão consiste em uma série de testes, cada um dos quais é uma conjunção de literais, se o teste for sucedido, a lista especificará o valor a ser retornado, se o teste falhar, ela continua com o próximo teste na lista.
+- - Qual a diferença entre uma árvore de decisão e uma lista de decisão?
+- Uma lista de decisão possui uma estrutura geral mais simples, se ramificando somente em uma direção, porém seus testes individuais são mais complexos que de uma árvore de decisões.
+- - O que é regressão linear?
+- É a tarefa de encontrar uma função que melhor encaixa uma função linear com coeficientes de valores reais a serem aprendidos a partir de um conjunto de treinamento.
+- - O que é a regra de aprendizagem perceptron?
+- É uma regra simples de atualização de peso que converge para um solução, ou seja, um separador linear que classifica os dados perfeitamente desde que sejam linearmente separáveis.
+- - O que é a regressão logística?
+- A regressão linear logística substitui o limiar rígido da aprendizagem perceptron por um limiar suave definido por uma função logística.
+- - O que é uma rede neural artificial?
+- Uma rede neural artificial é um modelo computacional do cérebro humano, focado na capacidade de realizar computação distribuída, tolerar entradas de ruídos e aprender.
+- - Como é a estrutura de uma rede neural?
+- As redes neurais são compostas por nós conectados por ligações direcionadas para propagar a ativação, cada ligação também possui um peso numérico para determinar a força e o sinal da conexão a partir disso é feita a conexão de todos esses nós formando uma rede (com alimentação para frente ou recorrente).
+- - O que é uma rede com alimentação para frente?
+- Uma rede com alimentação para frente tem conexões somente em uma direção, formando um grafo acíclico dirigido, não possuindo um estado interno que não seja os próprios pesos, já que representa uma função de sua entrada atual.
+- - O que é uma rede recorrente?
+- A rede recorrente alimenta suas saídas, de volta para suas entradas, formando um sistema dinâmico que pode atingir um estado estável ou apresentar oscilações ou um comportamento caótico, além disso diferente da rede com alimentação para frente, a resposta da rede depende do seu estado inicial que pode depender de entradas anteriores.
+- - O que é um modelo não paramétrico?
+- O modelo não paramétrico usa todos os dados para fazer cada previsão, em vez de tentar primeiro resumir os dados com alguns parâmetros.
+- - O que é um modelo paramétrico?
+- O modelo paramétrico é um modelo de aprendizagem que resume os dados com um conjunto de parâmetros de tamanho fixo
+- - O que é um SVM?
+- Um SVM ou máquina de vetor de suporte, é uma abordagem pré-fabricada para aprendizagem supervisionada, possuindo três propriedades que os tornam atraentes: eles constroem um separador de margem máxima, usam o truque de kernel e são um método não paramétrico.
+- - O que é uma máquina de vetor de suporte?
+- Um SVM ou máquina de vetor de suporte, é uma abordagem pré-fabricada para aprendizagem supervisionada, possuindo três propriedades que os tornam atraentes: eles constroem um separador de margem máxima, usam o truque de kernel e são um método não paramétrico.
+- - O que é um separado de margem máxima?
+- Um separador de margem máxima é um limite de decisão com a maior distância possível a pontos de exemplo, ajudando na generalização.
+- - O que é o truque de kernel?
+- É um truque para criar uma separação linear em hiperplano, que tem a capacidade de incorporar os dados em um espaço de dimensão superior, a partir da função kernel.
+
