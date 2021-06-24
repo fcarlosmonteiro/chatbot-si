@@ -1,5 +1,4 @@
 ChatterBot==1.0.5
 chatterbot-corpus==1.2.0
 Flask==1.1.1
-
-
+gunicorn
