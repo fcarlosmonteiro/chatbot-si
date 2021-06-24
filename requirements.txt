@@ -1,3 +1,1 @@
-chatterbot==1.0.4
-chatterbot-corpus==1.2.0
 Flask==1.1.1
