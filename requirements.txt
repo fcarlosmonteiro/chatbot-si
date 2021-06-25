@@ -8,5 +8,5 @@ pymongo>=3.3,<4.0
 python-dateutil>=2.7,<2.8
 sqlalchemy>=1.2,<1.3
 pint>=0.8.1
-https://github.com/gunthercox/ChatterBot/archive/refs/tags/1.0.4.zip#egg=chatterbot
+https://github.com/gunthercox/ChatterBot/archive/refs/tags/1.0.5.tar.gz#egg=chatterbot
 
