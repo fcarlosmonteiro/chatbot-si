@@ -1,4 +1,4 @@
-chatterbot==1.0.5
+chatterbot==1.0.4
 fastapi==0.65.2
 jinja2==3.0.1
 uvicorn==0.11.8
