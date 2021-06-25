@@ -1,10 +1,11 @@
 from starlette.responses import HTMLResponse
 from chatbot import chatbot
+
 from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
-
+from fastapi.responses import PlainTextResponse
 
 app = FastAPI()
 
@@ -18,7 +19,6 @@ async def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 
-@app.route("/get/{msg}")
+@app.route("/get/{msg}", response_class=PlainTextResponse)
 def get_bot_response(msg: str):
-    return 'fala carluxo.'
-    # return str(chatbot.get_response(msg))
+    return str(chatbot.get_response(msg))
