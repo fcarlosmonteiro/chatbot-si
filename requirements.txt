@@ -3,4 +3,6 @@ jinja2==3.0.1
 fastapi==0.65.2
 uvicorn==0.11.8
 git+git://github.com/gunthercox/ChatterBot.git@master
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz#egg=en_core_web_sm
+spacy>=2.1,<2.2
+git+git://github.com/gunthercox/chatterbot-corpus@master#egg=chatterbot_corpus
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz#egg=en_core_web_sm
