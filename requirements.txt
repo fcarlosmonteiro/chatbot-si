@@ -4,4 +4,4 @@ uvicorn==0.11.8
 git+git://github.com/gunthercox/chatterbot-corpus@master#egg=chatterbot_corpus
 nltk>=3.2,<4.0
 spacy>=2.1,<2.2
-https://github.com/gunthercox/ChatterBot/archive/refs/tags/1.0.6.tar.gz#egg=chatterbot
+https://github.com/gunthercox/ChatterBot/archive/refs/tags/1.1.0a1.tar.gz#egg=chatterbot
