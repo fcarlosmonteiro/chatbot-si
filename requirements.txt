@@ -3,5 +3,4 @@ fastapi==0.65.2
 uvicorn==0.11.8
 spacy>=2.1,<2.2
 git+git://github.com/gunthercox/chatterbot-corpus@master#egg=chatterbot_corpus
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz#egg=en_core_web_sm
-git+https://github.com/gunthercox/ChatterBot/archive/refs/tags/1.0.7.tar.gz#egg=chatterbot
+https://github.com/gunthercox/ChatterBot/archive/refs/tags/1.0.7.tar.gz#egg=chatterbot
