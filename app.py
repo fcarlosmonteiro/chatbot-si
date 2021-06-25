@@ -19,6 +19,6 @@ async def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 
-@app.route("/get/{msg}", response_class=PlainTextResponse)
+@app.get("/get/{msg}", response_class=PlainTextResponse)
 def get_bot_response(msg: str):
     return str(chatbot.get_response(msg))
