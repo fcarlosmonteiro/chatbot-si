@@ -1,6 +1,6 @@
 pymongo==3.11.4
 mathparse==0.1.2
-ping==0.17
+pint==0.17
 nltk==3.6.2
 python_dateutil==2.7.5
 sqlalchemy==1.2.19
