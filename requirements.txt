@@ -11,5 +11,6 @@ pyyaml>=5.1,<5.2
 spacy>=2.1,<2.2
 sqlalchemy>=1.2,<1.3
 pytz
+aiofiles
 chatterbot==1.0.4
 
