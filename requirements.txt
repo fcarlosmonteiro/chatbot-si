@@ -1,3 +1,4 @@
+sqlalchemy==1.2.19
 pyyaml==3.12
 chatterbot==1.0.4
 jinja2==3.0.1
