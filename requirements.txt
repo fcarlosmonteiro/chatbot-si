@@ -1,4 +1,4 @@
 jinja2==3.0.1
 fastapi==0.65.2
 uvicorn==0.11.8
-git+git://github.com/gunthercox/ChatterBot@releases/tag/1.0.7
+git+git://github.com/gunthercox/ChatterBot.git@master
