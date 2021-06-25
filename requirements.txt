@@ -1,6 +1,7 @@
 jinja2==3.0.1
 fastapi==0.65.2
 uvicorn==0.11.8
-spacy>=2.1,<2.2
 git+git://github.com/gunthercox/chatterbot-corpus@master#egg=chatterbot_corpus
-https://github.com/gunthercox/ChatterBot/archive/refs/tags/1.0.7.tar.gz#egg=chatterbot
+nltk>=3.2,<4.0
+spacy>=2.1,<2.2
+https://github.com/gunthercox/ChatterBot/archive/refs/tags/1.0.6.tar.gz#egg=chatterbot
