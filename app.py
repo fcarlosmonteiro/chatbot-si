@@ -20,4 +20,5 @@ async def home(request: Request):
 
 @app.route("/get/{msg}")
 def get_bot_response(msg: str):
-    return str(chatbot.get_response(msg))
+    return 'fala carluxo.'
+    # return str(chatbot.get_response(msg))
