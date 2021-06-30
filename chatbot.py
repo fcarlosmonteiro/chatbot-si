@@ -13,5 +13,5 @@ chatbot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAd
         'default_response': 'Não entendi, pode repetir por favor?',
         'maximum_similarity_threshold': 0.90}])
 
-#trainer = ChatterBotCorpusTrainer(chatbot)
-#trainer.train(path)
+trainer = ChatterBotCorpusTrainer(chatbot)
+trainer.train(path)
