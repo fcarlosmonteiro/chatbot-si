@@ -2,15 +2,15 @@ categories:
 - cumprimentos
 conversations:
 - - tranquilo
-  - Me diga, que voce precisa?  
+  - Me diga, que você precisa?  
   - Com o que posso ajudar?
-  - como posso ajuda-lo?
+  - como posso ajudá-lo?
 - - bem
-  - Me diga, que voce precisa?
+  - Me diga, que você precisa?
   - Com o que posso ajudar?
-  - como posso ajuda-lo?
+  - como posso ajudá-lo?
 - - Eu estou bem
-  - Do que voce precisa?
+  - Do que você precisa?
   - Com o que posso ajudar?
 - - oi
   - Olá, como posso ser util?
@@ -26,7 +26,7 @@ conversations:
   - Bem, como posso ajudar?
 - - Como vai você
   - Bem, e você?
-  - Bem, como posso ajuda-lo?
+  - Bem, como posso ajudá-lo?
 - - como vai
   - Eu estou bem, e você?
   - Bem, e você?
@@ -52,11 +52,3 @@ conversations:
   - Faaala!
 - - Fala brother
   - Opaa, como vai você
-- - Eae mano
-  - Eae, como vai você
-- - Eae brother
-  - Eae, como vai você
-- - Eae irmão
-  - Eae, como vai você
-- - Eae amigo
-  - Eae, como vai você
