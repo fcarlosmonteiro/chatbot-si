@@ -1,9 +1,4 @@
 # chatbot-si
-A chatbot to assist students in artificial intelligence
+Esse projeto desenvolveu um chatbot para fins educacional. O objetivo do chatbot é auxilar o estudo de conceitos relacionados a introdução à inteligência artificial.
 
-Francisco Monteiro
-
-Leonardo Kazuyoshi
-
-Felipe
-
+O chatbot encontra-se hospedado em https://bot-brasil.herokuapp.com/
